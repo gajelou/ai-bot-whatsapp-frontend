@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import axios from 'axios'
 
+
 const email = ref('')
 const password = ref('')
 const errorMessage = ref('')
@@ -21,17 +22,15 @@ async function handleLogin() {
 </script>
 
 <template>
-  <div>
-   
-  </div>
-  <div class="min-h-screen flex items-center justify-center bg-gray-100">
+  
+  <div class=" pt-10 min-h-screen flex items-center justify-center p-1">
     
-    <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
+    <div class="bg-white p-6 rounded shadow-md w-full max-w-md">
       <h2 class="text-2xl font-bold mb-6 text-center">Login</h2>
 
       <form @submit.prevent="handleLogin">
         <div class="mb-4">
-          <label class="block mb-1 font-semibold" for="email">Email</label>
+          <label class="p-2 block mb-1 font-semibold" for="email">Email</label>
           <input
             v-model="email"
             type="email"
@@ -54,7 +53,7 @@ async function handleLogin() {
 
         <button
           type="submit"
-          class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
+          class="w-full bg-blue-400 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
         >
           Entrar
         </button>

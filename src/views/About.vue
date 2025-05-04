@@ -1,5 +1,7 @@
 <template>
-    <h1>
-        About
-    </h1>
+    <div class="mt-20 text-black">
+        <h1>
+            Sobre.
+        </h1>
+    </div>
 </template>

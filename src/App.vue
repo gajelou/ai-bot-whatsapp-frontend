@@ -1,31 +1,16 @@
 <script setup lang="ts">
-
+import NavBar from './components/NavBar.vue';
 
 </script>
 
 <template>
-  <div>
-    <router-link to="/Home">Início</router-link>
-    <router-link to="/About">Sobre </router-link>
-    <router-link to="/Product">Produto </router-link>
-    <router-link to="/Login">Login </router-link>
-
-    <router-view/>
+  <div class=" text-orange-600 text-xl bg-blue-50">
+  <NavBar/>
+  <router-view/>
   </div>
 
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
