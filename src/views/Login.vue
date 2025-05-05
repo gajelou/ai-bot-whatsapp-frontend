@@ -23,10 +23,10 @@ async function handleLogin() {
 
 <template>
   
-  <div class=" pt-10 min-h-screen flex items-center justify-center p-1">
+  <div class=" pt-10 min-h-screen flex-col justify-items-center p-1 text-black">
     
     <div class="bg-white p-6 rounded shadow-md w-full max-w-md">
-      <h2 class="text-2xl font-bold mb-6 text-center">Login</h2>
+      <h2 class="text-3xl pb-10  font-extrabold">Login</h2>
 
       <form @submit.prevent="handleLogin">
         <div class="mb-4">

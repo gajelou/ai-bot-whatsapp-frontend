@@ -4,7 +4,7 @@ import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-  <div class=" text-orange-600 text-xl bg-blue-50">
+  <div class=" text-orange-600 bg-blue-50">
   <NavBar/>
   <router-view/>
   </div>
